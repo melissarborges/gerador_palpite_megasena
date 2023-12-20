@@ -14,6 +14,18 @@ p{
     font-size: 1.5em;
     margin-bottom: 35px;
 }
+a{
+    display: inline;
+    text-align:center;
+    width:100%;
+    font-family: "FuturaWeb",sans-serif;
+    font-size:100%;
+    color: #fff;
+    background: #0066b3;
+    padding: 2.5%;
+    border-radius: 10%;
+    padding:3%;
+}
 li{
     display: inline-block;
     align-items: center;
@@ -23,7 +35,7 @@ li{
     font-family: "FuturaWeb",sans-serif;
     font-size:80%;
     color: #fff;
-    background: #209869;
+    background:#F78100;
     border-radius: 50%;
     padding: 2.6% 2.6%;
     padding-inline: inherits;
