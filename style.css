@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(231, 209, 180);
+    color: rgb(0, 0, 0);
+    font-family: futura-lt-book;
+    text-align: center;
+    padding: 50px;
+}
+h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 1.5em;
+    margin-bottom: 35px;
+}
+li{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+    width: 9%;
+    font-family: "FuturaWeb",sans-serif;
+    font-size:80%;
+    color: #fff;
+    background: #209869;
+    border-radius: 50%;
+    padding: 2.6% 2.6%;
+    padding-inline: inherits;
+    
+}
+ul{
+    margin: 5%
+}
+button{
+    background-color: #0066b3;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.5rem;
+    box-shadow: 5px 5px 5px #0065b378;
+}
+@media(max-width:600px){
+    .ul{
+        display: block;
+        overflow-y: auto;
+        justify-content: center;
+    }
+}
